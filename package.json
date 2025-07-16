@@ -1,12 +1,31 @@
 {
+  "private": true,
   "scripts": {
-    "pnpm": "pnpm",
-    "dev": "cd nextjs-dashboard && npm run dev"
-  },
-  "devDependencies": {
-    "pnpm": "^10.13.1"
+    "build": "next build",
+    "dev": "next dev",
+    "start": "next start"
   },
   "dependencies": {
-    "lodash": "^4.17.21"
+    "@heroicons/react": "^2.2.0",
+    "@tailwindcss/forms": "^0.5.10",
+    "autoprefixer": "10.4.20",
+    "bcrypt": "^5.1.1",
+    "clsx": "^2.1.1",
+    "next": "14.2.3",
+    "next-auth": "5.0.0-beta.25",
+    "postcss": "8.5.1",
+    "postgres": "^3.4.6",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "tailwindcss": "3.4.17",
+    "typescript": "5.4.5",
+    "use-debounce": "^10.0.4",
+    "zod": "^3.25.17"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/node": "20.14.2",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0"
   }
 }
